@@ -1,0 +1,105 @@
+body {
+    background-image: url("mountain.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-left:1%;
+    height: 735px;
+}
+
+.up-side{
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color:white;
+    letter-spacing: 0.1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.up-center {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    word-spacing: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.up-right{
+    float: right;
+    position: relative;
+    color: white;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.button {
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    align-items: right;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+
+}
+
+
+
+.button1 {
+    background-color:lawngreen;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    align-items:right ;
+    text-decoration: none;
+    display: inline-block;
+       font-size: 16px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    height:100vh;
+    font-size: 350%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif; 
+    color: white;
+}
+
+.button2 {
+    background-color: rgba(255, 192, 231, 0.897);
+    border:none;
+    border-radius: 20px;
+    font-size: 16px;
+    padding:15px 15px ;
+    display: inline-block;
+    color: white;
+    
+}
+
+.bottom-left{
+  text-align: left;
+  color: whitesmoke;
+  font-size: 14.5px;
+  bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-right {
+    text-align: right;
+    bottom: 8px;
+    color: whitesmoke;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
